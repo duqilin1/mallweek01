@@ -1,4 +1,4 @@
-package com.bawie.duqilin2019123;
+package com.bawie.duqilin20191203;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.bawie.duqilin2019123", appContext.getPackageName());
+        assertEquals("com.bawie.duqilin20191203", appContext.getPackageName());
     }
 }

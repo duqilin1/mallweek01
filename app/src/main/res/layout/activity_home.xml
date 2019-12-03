@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.HomeActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/bt01"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="首页"
+            android:gravity="center"
+            android:drawableTop="@mipmap/sy"/>
+
+        <RadioButton
+            android:id="@+id/bt02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="分类"
+            android:gravity="center"
+            android:drawableTop="@mipmap/abc"/>
+
+        <RadioButton
+            android:id="@+id/bt03"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="发现"
+            android:gravity="center"
+            android:drawableTop="@mipmap/fx"/>
+
+        <RadioButton
+            android:id="@+id/bt04"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="购物车"
+            android:gravity="center"
+            android:drawableTop="@mipmap/gwc1"/>
+
+        <RadioButton
+            android:id="@+id/bt05"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="我的"
+            android:gravity="center"
+            android:drawableTop="@mipmap/my"/>
+
+    </RadioGroup>
+
+</LinearLayout>
