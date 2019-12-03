@@ -29,7 +29,7 @@ public class OtherFragment extends BaseFragment {
 
     @Override
     protected void initData() {
-        if (NetUtil.getInstance().isWang(this)){
+        if (NetUtil.getInstance().isWang(getActivity())){
 
         }else {
             iv.setVisibility(View.VISIBLE);
